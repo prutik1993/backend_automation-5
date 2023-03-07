@@ -37,7 +37,7 @@ public class APIAutomationSample {
 
         int postId = response.jsonPath().getInt("id");
 
-        // creating get request ro get specific user
+        // creating get request to get specific user
         response = RestAssured
                 .given().log().all()
                 .header("Content-Type", "application/json")
