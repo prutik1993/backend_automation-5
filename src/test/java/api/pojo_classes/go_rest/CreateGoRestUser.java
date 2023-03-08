@@ -48,6 +48,4 @@ public class CreateGoRestUser {
         this.status = status;
     }
 
-
-
 }

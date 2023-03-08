@@ -31,7 +31,7 @@ public class GoRest {
 
 
     @BeforeTest
-    public void beforeTest(){
+    public void beforeTest() {
         System.out.println("Starting the API test");
         // By having RestAssure URI set implicitly in to the rest assured
         // we just add path to the post call
@@ -59,7 +59,7 @@ public class GoRest {
                 .header("Authorization", ConfigReader.getProperty("GoRestToken"))
                 .body(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(createGoRestUser))
                 //.when().post( "https://gorest.co.in/public/v2/users")
-                .when().post( "/public/v2/users")
+                .when().post("/public/v2/users")
                 .then().log().all()
                 // validating status code
                 .and().assertThat().statusCode(201)
@@ -73,13 +73,13 @@ public class GoRest {
 
         System.out.println("________Fetching the user with GET request_______");
 
-        expectedGoRestID =  response.jsonPath().getInt("id");
+        expectedGoRestID = response.jsonPath().getInt("id");
 
         response = RestAssured
                 .given().log().all()
                 .contentType(ContentType.JSON)
                 .header("Authorization", ConfigReader.getProperty("GoRestToken"))
-                .when().get( "/public/v2/users/" + expectedGoRestID)
+                .when().get("/public/v2/users/" + expectedGoRestID)
                 .then().log().all()
                 .and().assertThat().statusCode(200)
                 // validating that execution time less than 2 sec
@@ -107,7 +107,7 @@ public class GoRest {
                 .header("Authorization", ConfigReader.getProperty("GoRestToken"))
                 .body(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(updateGoRestUser))
                 //.when().post( "https://gorest.co.in/public/v2/users")
-                .when().put( "/public/v2/users/" + expectedGoRestID)
+                .when().put("/public/v2/users/" + expectedGoRestID)
                 .then().log().all()
                 // validating status code
                 .and().assertThat().statusCode(200)
@@ -138,17 +138,17 @@ public class GoRest {
         Assert.assertEquals(actualGoRestStatus, expectedGoRestStatus);
 
 
-
         System.out.println("________Deleting the user with DELETE request_______");
 
         response = RestAssured
                 .given().log().all()
                 .contentType(ContentType.JSON)
                 .header("Authorization", ConfigReader.getProperty("GoRestToken"))
-                .when().delete( "/public/v2/users/" + expectedGoRestID)
+                .when().delete("/public/v2/users/" + expectedGoRestID)
                 .then().log().all()
                 .and().assertThat().statusCode(204)
                 // validating that execution time less than 2 sec
                 .time(Matchers.lessThan(2000L))
                 .extract().response();
+    }
 }
