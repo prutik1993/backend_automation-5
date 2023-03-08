@@ -150,5 +150,5 @@ public class GoRest {
                 .and().assertThat().statusCode(204)
                 // validating that execution time less than 2 sec
                 .time(Matchers.lessThan(2000L))
-                .extract().response();}
+                .extract().response();
 }
