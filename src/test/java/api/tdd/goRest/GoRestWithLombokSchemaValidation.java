@@ -8,6 +8,7 @@ import com.github.javafaker.Faker;
 import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,13 +16,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ConfigReader;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class GoRestWithLombok {
+public class GoRestWithLombokSchemaValidation {
 
-    static Logger logger = LogManager.getLogger(GoRestWithLombok.class);
+    static Logger logger = LogManager.getLogger(GoRestWithLombokSchemaValidation.class);
     /**
      * it will convert java into json, it's a class that coming it from fasterxml
      */
@@ -44,7 +48,7 @@ public class GoRestWithLombok {
     }
 
     @Test
-    public void goRestCRUDWithLombok() throws JsonProcessingException {
+    public void goRestCRUDWithLombok() throws JsonProcessingException, FileNotFoundException {
 
         // creating a POJO (Bean) object
         CreateGoRestUserWithLombok createUser = CreateGoRestUserWithLombok
@@ -74,6 +78,10 @@ public class GoRestWithLombok {
                 .body("name", equalTo("Anastasiya"))
                 // validating response content type
                 .contentType(ContentType.JSON)
+                // validating schema response body with rest assured schema validation library
+                .assertThat()
+                .body(JsonSchemaValidator
+                        .matchesJsonSchema(new FileInputStream("src/test/java/api/json_schema/go_rest/go_rest_post_response.json")))
                 .extract().response();
 
         int goRestId = response.jsonPath().getInt("id");

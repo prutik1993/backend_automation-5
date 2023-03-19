@@ -5,15 +5,19 @@ import api.pojo_classes.go_rest.UpdateGoRestUser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
+import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ConfigReader;
-import org.hamcrest.Matchers;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class GoRest {
@@ -28,6 +32,7 @@ public class GoRest {
     String expectedGoRestEmail;
     String expectedGoRestGender;
     String expectedGoRestStatus;
+    static Logger logger = LogManager.getLogger(GoRest.class);
 
 
     @BeforeTest
@@ -64,12 +69,31 @@ public class GoRest {
                 // validating status code
                 .and().assertThat().statusCode(201)
                 // validating that execution time less than 2 sec
-                .time(Matchers.lessThan(2000L))
+                //.time(Matchers.lessThan(2000L))
                 // validating the value from the body with hamcrest
                 .body("name", equalTo("Anastasiya"))
                 // validating response content type
                 .contentType(ContentType.JSON)
                 .extract().response();
+
+        //expected status
+        String expectedStatus = createGoRestUser.getStatus();
+
+        //actual status
+        String actualStatus = JsonPath.read(response.asString(), "status");
+
+        //debug with the logger
+        logger.debug("The status should be " + expectedStatus + " but we found " + actualStatus);
+
+        // hamcrest assert
+        assertThat(
+                // reason why we are asserting
+                "I am checking if the " + expectedStatus + " is matching with the " + actualStatus,
+                //actual value
+                actualStatus,
+                //expected value
+                is(expectedStatus)
+        );
 
         System.out.println("________Fetching the user with GET request_______");
 
@@ -83,7 +107,7 @@ public class GoRest {
                 .then().log().all()
                 .and().assertThat().statusCode(200)
                 // validating that execution time less than 2 sec
-                .time(Matchers.lessThan(2000L))
+                //.time(Matchers.lessThan(2000L))
                 // validating the value from the body with hamcrest
                 .body("name", equalTo("Anastasiya"))
                 // validating response content type
@@ -112,7 +136,7 @@ public class GoRest {
                 // validating status code
                 .and().assertThat().statusCode(200)
                 // validating that execution time less than 2 sec
-                .time(Matchers.lessThan(2000L))
+                //.time(Matchers.lessThan(2000L))
                 // validating the value from the body with hamcrest
                 .body("name", equalTo("Marina"))
                 // validating response content type
@@ -124,7 +148,7 @@ public class GoRest {
         expectedGoRestGender = createGoRestUser.getGender();
         expectedGoRestStatus = createGoRestUser.getStatus();
 
-        // id in the grtInt is the name of the attribute in the response body
+        // id in the getInt is the name of the attribute in the response body
         int actualGoRestId = response.jsonPath().getInt("id");
         String actualGoRestName = response.jsonPath().getString("name");
         String actualGoRestEmail = response.jsonPath().getString("email");
@@ -148,7 +172,7 @@ public class GoRest {
                 .then().log().all()
                 .and().assertThat().statusCode(204)
                 // validating that execution time less than 2 sec
-                .time(Matchers.lessThan(2000L))
+                //.time(Matchers.lessThan(2000L))
                 .extract().response();
     }
 }

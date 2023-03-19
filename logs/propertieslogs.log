@@ -1,0 +1,158 @@
+[TRACE] 2023-03-11 13:07:42.972 [main] Log4jAppender - Logging with trace
+[DEBUG] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with debug
+[INFO ] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with info
+[WARN ] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with warn
+[ERROR] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with error
+[FATAL] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with fatal
+[INFO ] 2023-03-11 13:07:42.974 [main] Log4jAppender - Logging with info
+[TRACE] 2023-03-11 13:10:08.214 [main] Log4jAppender - Logging with trace
+[DEBUG] 2023-03-11 13:10:08.216 [main] Log4jAppender - Logging with debug
+[INFO ] 2023-03-11 13:10:08.216 [main] Log4jAppender - Logging with info
+[WARN ] 2023-03-11 13:10:08.216 [main] Log4jAppender - Logging with warn
+[ERROR] 2023-03-11 13:10:08.216 [main] Log4jAppender - Logging with error
+[FATAL] 2023-03-11 13:10:08.217 [main] Log4jAppender - Logging with fatal
+[INFO ] 2023-03-11 13:10:08.217 [main] Log4jAppender - Logging with info
+[TRACE] 2023-03-11 13:12:48.086 [main] Log4jAppender - Logging with trace
+[TRACE] 2023-03-11 13:12:48.086 [main] Log4jAppender - Logging with trace
+[DEBUG] 2023-03-11 13:12:48.088 [main] Log4jAppender - Logging with debug
+[DEBUG] 2023-03-11 13:12:48.088 [main] Log4jAppender - Logging with debug
+[INFO ] 2023-03-11 13:12:48.088 [main] Log4jAppender - Logging with info
+[INFO ] 2023-03-11 13:12:48.088 [main] Log4jAppender - Logging with info
+[WARN ] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with warn
+[WARN ] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with warn
+[ERROR] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with error
+[ERROR] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with error
+[FATAL] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with fatal
+[FATAL] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with fatal
+[INFO ] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with info
+[INFO ] 2023-03-11 13:12:48.089 [main] Log4jAppender - Logging with info
+[INFO ] 2023-03-11 13:16:36.623 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:21:32.500 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:21:37.009 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[INFO ] 2023-03-11 13:25:57.534 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:26:01.676 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-11 13:26:01.676 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-11 13:35:34.519 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:35:38.989 [main] AddPetToStoreWithLombok - My id with JayWay is 8
+[INFO ] 2023-03-11 13:35:38.989 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-11 13:35:38.989 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-11 13:40:12.497 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:40:16.844 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 8
+[INFO ] 2023-03-11 13:40:16.845 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-11 13:40:16.845 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-11 13:40:16.845 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-11 13:47:26.235 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:47:30.693 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 8
+[INFO ] 2023-03-11 13:47:30.694 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-11 13:47:30.694 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-11 13:47:30.694 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-11 13:53:09.925 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-11 13:53:14.083 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 71
+[INFO ] 2023-03-11 13:53:14.084 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-11 13:53:14.084 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-11 13:53:14.084 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[DEBUG] 2023-03-11 14:04:04.522 [main] GoRestWithLombok - The name value should be Anastasiya but we found Anastasiya
+[DEBUG] 2023-03-11 14:04:26.730 [main] GoRestWithLombok - The name value should be Anastasiya but we found Anastasiya
+[DEBUG] 2023-03-11 14:05:20.002 [main] GoRestWithLombok - The name value should be Anastasiya but we found Anastasiya
+[DEBUG] 2023-03-11 14:33:42.221 [main] GoRest - The name value should be active but we found active
+[DEBUG] 2023-03-11 14:43:29.676 [main] GoRest - The status should be active but we found active
+[DEBUG] 2023-03-11 14:44:37.668 [main] GoRest - The status should be active but we found active
+[INFO ] 2023-03-11 15:25:18.593 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:27:47.256 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:27:47.260 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:29:47.555 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:29:47.559 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:29:47.559 [main] ReadingFormExcelFile - The last roe number is 2
+[INFO ] 2023-03-11 15:33:36.439 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:33:36.443 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:33:36.443 [main] ReadingFormExcelFile - The last roe number is 2
+[INFO ] 2023-03-11 15:33:36.443 [main] ReadingFormExcelFile - The last cell number is 4
+[INFO ] 2023-03-11 15:44:13.352 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:44:13.356 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:44:13.356 [main] ReadingFormExcelFile - The last roe number is 2
+[INFO ] 2023-03-11 15:44:13.356 [main] ReadingFormExcelFile - The last cell number is 4
+[INFO ] 2023-03-11 15:45:04.715 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:45:04.720 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:45:04.720 [main] ReadingFormExcelFile - The last roe number is 2
+[INFO ] 2023-03-11 15:45:04.720 [main] ReadingFormExcelFile - The last cell number is 4
+[INFO ] 2023-03-11 15:45:18.996 [main] ReadingFormExcelFile - First name from the first sell is Tech Global
+[INFO ] 2023-03-11 15:45:19.000 [main] ReadingFormExcelFile - The second id value is 2.0
+[INFO ] 2023-03-11 15:45:19.000 [main] ReadingFormExcelFile - The last roe number is 2
+[INFO ] 2023-03-11 15:45:19.000 [main] ReadingFormExcelFile - The last cell number is 4
+[INFO ] 2023-03-12 08:18:13.012 [main] HomeworkExcel - 95.0
+[INFO ] 2023-03-12 08:18:41.148 [main] HomeworkExcel - 75.0
+[INFO ] 2023-03-12 08:19:04.861 [main] HomeworkExcel - 95.0
+[INFO ] 2023-03-12 08:19:55.430 [main] HomeworkExcel - 95.0
+[INFO ] 2023-03-12 08:19:55.434 [main] HomeworkExcel - 4
+[INFO ] 2023-03-12 08:20:49.146 [main] HomeworkExcel - 95.0
+[INFO ] 2023-03-12 08:20:49.149 [main] HomeworkExcel - 4
+[INFO ] 2023-03-12 08:20:49.149 [main] HomeworkExcel - 5
+[INFO ] 2023-03-12 08:23:33.432 [main] HomeworkExcel - 95.0
+[INFO ] 2023-03-12 08:23:33.437 [main] HomeworkExcel - 4
+[INFO ] 2023-03-12 08:23:33.437 [main] HomeworkExcel - 5
+[DEBUG] 2023-03-12 10:32:35.998 [main] GoRestWithLombokSchemaValidation - The name value should be Anastasiya but we found Anastasiya
+[INFO ] 2023-03-12 11:19:00.257 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-12 11:19:04.544 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 71
+[INFO ] 2023-03-12 11:19:04.545 [main] AddPetToStoreWithLombok - Category id with JayWay is 10
+[INFO ] 2023-03-12 11:19:04.545 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-12 11:19:04.545 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-12 11:19:04.545 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-12 11:25:16.679 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-12 11:25:20.960 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 71
+[INFO ] 2023-03-12 11:25:20.962 [main] AddPetToStoreWithLombok - Category id with JayWay is 10
+[INFO ] 2023-03-12 11:25:20.962 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-12 11:25:20.962 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-12 11:25:20.963 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-12 11:26:31.961 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-12 11:26:36.287 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 71
+[INFO ] 2023-03-12 11:26:36.288 [main] AddPetToStoreWithLombok - Category id with JayWay is 10
+[INFO ] 2023-03-12 11:26:36.288 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-12 11:26:36.288 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-12 11:26:36.288 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-12 11:29:04.467 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-12 11:29:08.931 [main] AddPetToStoreWithLombok - My pet tag id with jayway is 71
+[INFO ] 2023-03-12 11:29:08.932 [main] AddPetToStoreWithLombok - Category id with JayWay is 10
+[INFO ] 2023-03-12 11:29:08.933 [main] AddPetToStoreWithLombok - My id with JayWay is 71
+[INFO ] 2023-03-12 11:29:08.933 [main] AddPetToStoreWithLombok - My actual pet id is 8
+[DEBUG] 2023-03-12 11:29:08.933 [main] AddPetToStoreWithLombok - The actual pet id should be 8 but we found 8
+[INFO ] 2023-03-12 11:29:08.934 [main] AddPetToStoreWithLombok - The actual category Id 10 expected 10
+[INFO ] 2023-03-12 14:29:49.083 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:29:49.749 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:29:49.751 [main] ExcelUtil - Sheet SheetName is exist!
+[INFO ] 2023-03-12 14:29:49.751 [main] TestingExcelUtil - File opened
+[INFO ] 2023-03-12 14:29:58.617 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:29:59.283 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:29:59.284 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-12 14:29:59.284 [main] TestingExcelUtil - File opened
+[INFO ] 2023-03-12 14:31:01.571 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:31:02.244 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:31:02.246 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-12 14:39:41.276 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:39:41.945 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:39:41.946 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-12 14:40:23.844 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:40:24.491 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:40:24.492 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-12 14:40:24.496 [main] TestingExcelUtil - Cell value is Name
+[INFO ] 2023-03-12 14:41:00.557 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 14:41:01.180 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 14:41:01.181 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-12 14:41:01.219 [main] TestingExcelUtil - Cell value is 1.0
+[INFO ] 2023-03-12 15:06:53.218 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-12 15:06:53.887 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-12 15:06:53.888 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-18 11:51:59.881 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-18 11:52:00.594 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-18 11:52:00.595 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-18 11:53:02.154 [main] TestingExcelUtil - Opening the Excel file
+[INFO ] 2023-03-18 11:53:02.817 [main] ExcelUtil - File ReadData is exist!
+[INFO ] 2023-03-18 11:53:02.818 [main] ExcelUtil - Sheet Sheet1 is exist!
+[INFO ] 2023-03-18 14:53:10.507 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-18 14:53:11.682 [main] ExcelUtil - File PetDataToRead is exist!
+[INFO ] 2023-03-18 14:53:11.682 [main] ExcelUtil - Sheet PetData is exist!
+[INFO ] 2023-03-18 14:55:05.215 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-18 14:55:06.422 [main] ExcelUtil - File PetDataToRead is exist!
+[INFO ] 2023-03-18 14:55:06.423 [main] ExcelUtil - Sheet PetData is exist!
+[INFO ] 2023-03-18 14:57:08.200 [main] AddPetToStoreWithLombok - Starting the test suite
+[INFO ] 2023-03-18 14:57:09.336 [main] ExcelUtil - File PetDataToRead is exist!
+[INFO ] 2023-03-18 14:57:09.337 [main] ExcelUtil - Sheet PetData is exist!

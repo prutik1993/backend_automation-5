@@ -5,19 +5,33 @@ import api.pojo_classes.pet_store.Category;
 import api.pojo_classes.pet_store.Tags;
 import api.pojo_classes.pet_store.UpdateAPet;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ConfigReader;
 
 import java.util.Arrays;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class AddPetToStoreWithLombok {
 
+    static Logger logger = LogManager.getLogger(AddPetToStoreWithLombok.class);
+
     Response response;
+
+    @BeforeSuite
+    public void testStarts(){
+        logger.info("Starting the test suite");
+    }
 
     @BeforeTest
     public void beforeTest(){
@@ -74,7 +88,45 @@ public class AddPetToStoreWithLombok {
         int actualTagsId = response.jsonPath().getInt("tags[0].id");
         int expectedTagsId0 = tags0.getId();
 
-        Assert.assertEquals(actualPetId, expectedPetId);
+        int actualPetIdWithJayWay = JsonPath.read(response.asString(), "id");
+
+        int actualPetTag0IdWithJayWay = JsonPath.read(response.asString(), "tags[0].id");
+        logger.info("My pet tag id with jayway is " + actualPetTag0IdWithJayWay);
+
+        int actualCategoryIdWithJayWay = JsonPath.read(response.asString(), "category.id");
+        logger.info("Category id with JayWay is " + actualCategoryIdWithJayWay);
+
+        int expectedCategoryId = category.getId();
+
+
+        logger.info("My id with JayWay is " + actualPetTag0IdWithJayWay);
+
+        // we are logging information
+        logger.info("My actual pet id is " + actualPetId);
+
+        // we are debugging assertion
+        logger.debug("The actual pet id should be " + expectedPetId + " but we found " + actualPetId);
+       // Assert.assertEquals(actualPetId, expectedPetId);
+
+        // assertion with hamcrest
+
+        assertThat(
+                // reason why we are asserting
+                "I am checking if the " + expectedPetId + " is matching with the " + actualPetIdWithJayWay,
+                //actual value
+                actualPetIdWithJayWay,
+                //expected value
+                is(expectedPetId)
+        );
+
+        logger.info("The actual category Id " + actualCategoryIdWithJayWay + " expected " + expectedCategoryId);
+        assertThat(
+                "I am validating category Id",
+                actualCategoryIdWithJayWay,
+                is(expectedCategoryId)
+        );
+
+
         Assert.assertEquals(actualTagsId, expectedTagsId0);
 
         System.out.println("______Update a pet______");
@@ -103,8 +155,6 @@ public class AddPetToStoreWithLombok {
                 .then().log().all()
                 .assertThat().statusCode(200)
                 .extract().response();
-
-
 
     }
 }
