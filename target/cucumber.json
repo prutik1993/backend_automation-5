@@ -1,0 +1,249 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-22T20:07:31.630Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate the POST request",
+        "description": "",
+        "id": "as-a-qa--i-validate-gorest-crud-operations;validate-the-post-request;gorest-data;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3349000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create a GoRest user with \"Batch Five\", \"female\", email, \"active\" and \"/public/v2/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batch Five\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"female\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"active\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"/public/v2/users\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.createAGoRstUserWithEmailAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.statusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I perform a GET request with \"/public/v2/users\" with id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/public/v2/users\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.iPerformAGETRequestWithWithId(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.statusCode(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I perform PUT request with following data with \"/public/v2/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/public/v2/users\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.iPerformPUTRequestWithFollowingData(java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Global"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "male"
+                ]
+              },
+              {
+                "cells": [
+                  "status",
+                  "inactive"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.statusCode(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I perform PATCH request with following data with \"/public/v2/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/public/v2/users\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.iPerformPATCHRequestWithFollowingData(java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Vera"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "female"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.statusCode(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "As a QA, I validate GoRest CRUD operations",
+    "description": "",
+    "id": "as-a-qa--i-validate-gorest-crud-operations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/Validate_GoRest_CRUD_Operations.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

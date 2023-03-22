@@ -3,8 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/anastasiyaprudnikova/IdeaProjects/backend_automation_5">
         <classes>
-            <class name="runner.Runner">
-            </class>
+            <class name="runner.Runner"/>
         </classes>
     </test>
 </suite>

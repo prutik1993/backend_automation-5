@@ -7,11 +7,11 @@ public class ConfigReader {
     private static Properties properties = new Properties();
 
     static {
-        try {
+        try{
             FileInputStream fileInputStream = new FileInputStream("config.properties");
             properties.load(fileInputStream);
             fileInputStream.close();
-        } catch (Exception e) {
+        }catch(Exception e){
             throw new RuntimeException(e);
         }
     }
@@ -19,4 +19,6 @@ public class ConfigReader {
     public static String getProperty(String key){
         return properties.getProperty(key);
     }
+
+
 }

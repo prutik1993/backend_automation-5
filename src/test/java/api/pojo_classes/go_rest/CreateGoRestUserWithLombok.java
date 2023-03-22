@@ -1,17 +1,22 @@
 package api.pojo_classes.go_rest;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * with the help of data witch is coming from
  *  lombok we can eliminate getters and setters
  **/
 @Data
-/**
- * With builder, we are able to assign value to the attributes
- */
 @Builder
+@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@NoArgsConstructor
+@AllArgsConstructor
 
 public class CreateGoRestUserWithLombok {
 

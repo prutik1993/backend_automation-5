@@ -24,19 +24,16 @@ public class DBUtil {
         }
         return connection;
     }
-
     public static void executeQuery(String query){
         try {
             statement = connection.createStatement();
             resultSet = statement.executeQuery(query);
-        } catch (SQLException e) {
+        }catch (SQLException e){
             e.printStackTrace();
         }
     }
-
     public static List<String> getColumnNames(String query){
         List<String> columnNames = new ArrayList<>();
-
         try{
             connection = DriverManager.getConnection(url, username, password);
             statement = connection.createStatement();
@@ -44,50 +41,47 @@ public class DBUtil {
 
             ResultSetMetaData metaData = resultSet.getMetaData();
             int columnCount = metaData.getColumnCount();
-
             for (int i = 1; i <= columnCount; i++) {
                 String columnName = metaData.getColumnName(i);
                 columnNames.add(columnName);
             }
-
         }catch (SQLException e){
             e.printStackTrace();
         }
-
         return columnNames;
     }
-
     public static List<List<Object>> getQueryResultList(String query){
         executeQuery(query);
         List<List<Object>> rowList = new ArrayList<>();
-        // We need to find number of the column to stop our loop at the limit
-        ResultSetMetaData resultSetMetaData;
 
+        // we need to find number of columns to stop our loop
+        ResultSetMetaData resultSetMetaData;
         try {
+
             // this is giving us a table information
             resultSetMetaData = resultSet.getMetaData();
-            while (resultSet.next()){
-                // create empty list for each row
+            while(resultSet.next()){
+
+                // create an empty list for each row
                 List<Object> row = new ArrayList<>();
-                // resultSetMetaData.getColumnCount() is giving us the number of column
+
+                // resultSetMetaData.getColumnCount() is giving us the number columns
                 for (int i = 1; i <= resultSetMetaData.getColumnCount(); i++) {
+
                     // we store each column in a list
                     row.add(resultSet.getObject(i));
                 }
-                // we get all information and store it back to list of list
+
+                // we get all information amd store it back to list of list
                 rowList.add(row);
             }
-        } catch (SQLException e) {
+        }catch(SQLException e){
             e.printStackTrace();
         }
         return rowList;
     }
-
     public static Object getCellValue(String query){
-        /**
-         * if we have only one value from one query we use this method because
-         * we don't need list of list
-         */
+        /** if we have only one value for the query we use this method because we don't need list of list */
         return getQueryResultList(query).get(0).get(0);
     }
 }

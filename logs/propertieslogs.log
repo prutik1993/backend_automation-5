@@ -156,3 +156,615 @@
 [INFO ] 2023-03-18 14:57:08.200 [main] AddPetToStoreWithLombok - Starting the test suite
 [INFO ] 2023-03-18 14:57:09.336 [main] ExcelUtil - File PetDataToRead is exist!
 [INFO ] 2023-03-18 14:57:09.337 [main] ExcelUtil - Sheet PetData is exist!
+[INFO ] 2023-03-19 12:03:42.895 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:03:45.735 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:03:46.734 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 12:04:38.996 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:04:42.224 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:04:43.214 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 12:07:18.266 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:07:21.307 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:07:22.334 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 12:08:04.782 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 12:10:12.884 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:34:44.198 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:35:53.321 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:35:56.666 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:35:56.670 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:36:00.306 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:36:00.308 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:36:01.753 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:36:24.611 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:38:01.922 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:38:01.925 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:38:02.968 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:38:02.970 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:39:41.527 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:39:45.703 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:39:45.706 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:39:49.335 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:39:49.337 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:39:50.424 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:41:15.948 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:41:19.016 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:41:19.026 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:41:20.223 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:41:20.223 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:41:21.302 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:43:38.351 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:43:38.355 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:43:39.471 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:43:39.474 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:45:50.185 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:45:50.189 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:45:51.342 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:45:51.344 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:46:03.079 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:46:05.857 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:46:05.862 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:46:09.013 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:46:09.014 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:46:10.073 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:47:47.610 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:47:51.791 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:47:51.795 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:47:52.959 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:47:52.960 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:47:54.081 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:53:38.775 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:53:38.787 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:53:44.399 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:53:44.402 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:53:45.248 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:55:22.599 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:55:23.596 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 13:55:38.688 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:55:38.694 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 13:55:42.618 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 13:55:42.619 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 13:55:43.459 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:27:02.561 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:27:29.522 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:27:29.528 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:27:30.746 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:27:30.761 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:27:31.658 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:32:59.696 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:34:07.173 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:34:27.891 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:34:27.896 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:34:29.107 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:34:29.324 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:34:29.333 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:34:30.199 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:35:04.066 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:35:04.070 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:35:05.332 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:35:05.698 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:35:05.699 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:35:06.568 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:39:33.926 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:39:33.935 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:39:35.280 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:39:35.563 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:39:35.569 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:39:36.388 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:40:45.255 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:40:45.260 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:40:46.689 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:40:47.252 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:40:47.254 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:40:48.083 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:43:48.253 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:43:48.257 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:43:49.311 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:43:49.833 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:43:50.253 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:43:50.256 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:43:51.122 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:52:58.750 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:52:58.755 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:52:59.851 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:53:00.253 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:53:00.675 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:53:01.152 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:53:01.153 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:53:01.989 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:54:21.817 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:21.821 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:54:23.734 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:24.176 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:24.617 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:25.052 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:25.486 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:54:25.487 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:54:26.364 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 14:56:37.351 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:37.362 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 14:56:38.873 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:39.393 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:39.889 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:40.318 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:40.742 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 14:56:40.744 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 14:56:41.566 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:32:15.626 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:32:18.466 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:18.470 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:32:19.762 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:20.363 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:21.552 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:22.000 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:23.079 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:32:23.081 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:32:24.200 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:38:50.424 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:39:02.938 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:39:03.902 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:39:15.045 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:39:17.916 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:17.922 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:39:19.753 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:20.256 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:20.725 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:21.154 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:21.395 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:39:21.395 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:39:22.465 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:48:29.918 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:48:33.086 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:33.090 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:48:34.218 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:34.802 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:35.675 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:36.136 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:36.556 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:48:36.558 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:48:37.737 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:49:42.086 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:49:45.031 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:45.034 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:49:46.302 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:46.891 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:47.361 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:47.626 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:48.050 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:49:48.050 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:49:49.187 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:50:32.552 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:50:36.138 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:36.143 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:50:37.343 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:37.824 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:38.270 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:38.549 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:38.982 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:50:38.983 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:50:40.049 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:51:32.841 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:51:35.987 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:35.997 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:51:37.157 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:37.612 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:38.291 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:39.060 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:39.325 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:51:39.326 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:51:40.549 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:52:13.160 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:52:16.114 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:16.118 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:52:17.502 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:17.975 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:18.416 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:18.718 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:19.066 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:52:19.067 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:52:20.145 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:53:13.422 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:53:16.366 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:16.370 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:53:17.920 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:18.368 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:18.899 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:19.355 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:19.943 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:19.944 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:53:21.075 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-19 15:53:36.731 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:53:39.894 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:39.897 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-19 15:53:40.987 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:41.366 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:41.842 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:42.216 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:42.475 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-19 15:53:42.476 [main] Hooks - Ending the test
+[INFO ] 2023-03-19 15:53:43.554 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 18:44:17.008 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:46:46.460 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:46:49.662 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:49.668 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:46:50.246 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:50.248 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 18:46:51.300 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:51.560 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:51.744 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:51.928 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:52.086 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:46:52.086 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:46:53.248 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 18:47:27.782 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:47:27.790 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:58:47.716 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:58:47.726 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:59:27.116 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:59:30.574 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:31.829 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:31.831 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:59:32.218 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:32.220 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 18:59:32.416 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:33.665 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:33.845 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:34.038 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:34.207 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 18:59:34.208 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 18:59:35.429 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 19:02:49.366 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 19:02:52.454 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:53.709 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:53.711 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 19:02:54.169 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:54.170 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 19:02:54.366 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:54.580 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:54.760 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:54.933 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:55.113 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 19:02:55.113 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 19:02:56.304 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 19:36:25.549 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:15:36.520 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:17:57.959 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:18:01.478 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:03.533 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:03.586 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:03.586 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:18:04.312 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:18:04.623 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:04.624 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 21:18:04.799 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:05.027 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:05.206 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:05.388 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:05.559 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:18:05.560 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:18:06.756 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 21:19:18.942 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:19:21.978 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:23.272 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:23.323 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:23.323 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:19:24.184 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:19:24.527 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:24.528 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 21:19:24.749 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:24.965 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:25.152 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:25.339 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:25.537 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:19:25.538 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:19:26.743 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 21:20:00.862 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:02.227 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:02.277 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:02.278 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:20:03.056 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:20:03.903 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:03.906 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 21:20:05.173 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:05.417 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:05.603 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:05.776 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:05.978 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:20:05.980 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:20:07.204 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 21:21:23.186 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:24.651 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:24.728 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:24.730 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:21:39.893 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:41.328 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:41.392 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:21:41.393 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:22:45.024 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:22:46.445 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:22:46.497 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:22:46.498 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:27:56.209 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:27:57.526 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:27:57.585 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:27:57.586 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:29:15.384 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:29:16.686 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:29:16.754 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:29:16.756 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:35:51.245 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:35:52.697 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:35:52.765 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:35:52.769 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:37:19.941 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:37:21.347 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:37:21.412 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:37:21.424 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:39:48.192 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:39:49.519 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:39:49.580 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:39:49.594 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:43:48.931 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:43:50.260 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:43:50.272 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:46:05.827 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:05.835 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 21:46:06.940 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:07.379 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:07.641 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:07.842 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:08.003 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:46:08.004 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:50:13.371 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:50:16.457 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:17.966 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:18.778 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:19.271 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:19.282 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:50:19.986 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:50:20.260 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:20.261 [main] TechGlobalStepDef - Sending a GET request with student id
+[INFO ] 2023-03-21 21:50:20.453 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:21.710 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:22.149 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:22.416 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:22.596 [main] CommonStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:50:22.596 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 21:50:23.596 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-21 21:51:24.248 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:51:25.623 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:51:26.145 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:51:26.743 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 21:51:26.747 [main] Hooks - Ending the test
+[INFO ] 2023-03-21 22:04:48.097 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 22:04:49.589 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 22:04:50.110 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 22:04:50.697 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-21 22:04:50.705 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 12:20:51.035 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:20:52.467 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:20:53.156 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:20:54.275 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:20:54.287 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 12:24:03.953 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:24:05.469 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:24:06.004 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:24:06.470 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:24:06.476 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 12:24:07.383 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-22 12:26:07.466 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:26:08.867 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:26:09.882 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:26:11.002 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 12:26:11.004 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 12:26:11.920 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-22 15:07:35.005 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:07:36.442 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:07:37.036 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:07:37.695 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:07:37.696 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 15:07:38.547 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************
+[INFO ] 2023-03-22 15:12:55.954 [main] Hooks - Ending the test

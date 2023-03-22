@@ -5,7 +5,12 @@ import io.cucumber.java.Before;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.List;
+
 import static utils.ConfigReader.getProperty;
+
+
 
 public class Hooks {
 
@@ -17,6 +22,8 @@ public class Hooks {
     public static String token;
 
     public static Response response;
+
+    public static List<List<Object>> queryResult;
 
     @Before
     public void setUp(){
