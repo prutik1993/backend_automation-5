@@ -801,3 +801,30 @@ Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/o
 [INFO ] 2023-03-22 15:34:51.388 [main] TechGlobalStepDef - Getting the Status code from the response
 [INFO ] 2023-03-22 15:34:52.424 [main] TechGlobalStepDef - Getting the Status code from the response
 [INFO ] 2023-03-22 15:34:52.426 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 15:36:41.168 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:42.983 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:43.530 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:44.133 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:44.663 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:45.867 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:36:45.876 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 15:37:14.907 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:16.246 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:16.805 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:17.370 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:17.857 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:18.316 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:18.318 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 15:37:33.651 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:35.123 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:35.737 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:36.207 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:36.792 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:37.708 [main] TechGlobalStepDef - Getting the Status code from the response
+[INFO ] 2023-03-22 15:37:37.709 [main] Hooks - Ending the test
+[INFO ] 2023-03-22 15:37:38.609 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend_automation_5/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************

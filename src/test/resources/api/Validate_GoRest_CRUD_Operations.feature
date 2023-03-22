@@ -17,6 +17,8 @@ Feature: As a QA, I validate GoRest CRUD operations
     And Status code 200
     When I perform DELETE request with following data with "<urlPath>"
     And Status code 204
+    When I perform DELETE request with following data with "<urlPath>"
+    And Status code 404
 
 
     Examples: GoRest Data

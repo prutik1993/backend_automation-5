@@ -51,8 +51,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                9,
-                1,
+                12,
+                0,
                 0,
                 0,
                 0
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 10) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 12) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                0,
-                1
+                1,
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -157,8 +157,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   0,
-                   1
+                   1,
+                   0
                ],
                backgroundColor: [
                 "#00B000",
@@ -232,7 +232,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>backend_automation_5</td>
-            <td>22 Mar 2023, 15:34</td>
+            <td>22 Mar 2023, 15:37</td>
     </tr>
   </tbody>
 </table>
@@ -329,52 +329,52 @@ $(document).ready(function() {
           <tr>
         <td class="tagname"><a href="report-feature_2885953223.html">As a QA, I validate GoRest CRUD operations</a></td>
 
-        <td      class="passed"    >9</td>
-        <td      class="failed"    >1</td>
+        <td      class="passed"    >12</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">10</td>
+        <td >0</td>
+        <td class="total">12</td>
 
+        <td  class="passed"    >1</td>
         <td >0</td>
-        <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="6414000000">6.414</td>
-        <td class="failed">Failed</td>
+        <td class="duration" data-value="7202000000">7.202</td>
+        <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>9</td>
-      <td>1</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>10</td>
+      <td>0</td>
+      <td>12</td>
 
+      <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>1</td>
 
-      <td class="duration">6.414</td>
+      <td class="duration">7.202</td>
       <td>1</td>
     </tr>
     <tr>
       <td></td>
-            <td>90.00%</td>
-      <td>10.00%</td>
+            <td>100.00%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>0.00%</td>
       <td>100.00%</td>
-      <td></td>
-      <td></td>
       <td>0.00%</td>
+      <td></td>
+      <td></td>
+      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

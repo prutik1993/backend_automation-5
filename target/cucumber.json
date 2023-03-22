@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-03-22T20:34:09.504Z",
+        "start_timestamp": "2023-03-22T20:37:30.467Z",
         "before": [
           {
             "result": {
@@ -15,14 +15,13 @@
             }
           }
         ],
-        "line": 24,
+        "line": 26,
         "name": "Validate the POST request",
         "description": "",
         "id": "as-a-qa--i-validate-gorest-crud-operations;validate-the-post-request;gorest-data;2",
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3246000000,
+              "duration": 3159000000,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 6,
@@ -83,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 1428000000,
+              "duration": 1463000000,
               "status": "passed"
             },
             "line": 7,
@@ -101,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 8,
@@ -119,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 627000000,
+              "duration": 603000000,
               "status": "passed"
             },
             "line": 9,
@@ -157,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -175,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 557000000,
+              "duration": 466000000,
               "status": "passed"
             },
             "line": 14,
@@ -207,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 17,
@@ -225,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 537000000,
+              "duration": 581000000,
               "status": "passed"
             },
             "line": 18,
@@ -243,16 +242,50 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Validating status Code\nExpected: is \u003c200\u003e\n     but: was \u003c204\u003e\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat stepDef.gorest_step_def.GoRestStepDef.statusCode(GoRestStepDef.java:59)\n\tat ✽.Status code 200(file:///Users/anastasiyaprudnikova/IdeaProjects/backend_automation_5/src/test/resources/api/Validate_GoRest_CRUD_Operations.feature:19)\n",
-              "duration": 4000000,
-              "status": "failed"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 19,
-            "name": "Status code 200",
+            "name": "Status code 204",
             "match": {
               "arguments": [
                 {
-                  "val": "200",
+                  "val": "204",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.statusCode(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 915000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I perform DELETE request with following data with \"/public/v2/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/public/v2/users\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDef.gorest_step_def.GoRestStepDef.iPerformDELETERequestWithFollowingDataWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
                   "offset": 12
                 }
               ],
