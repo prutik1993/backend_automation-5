@@ -5,6 +5,7 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.logging.log4j.LogManager;
@@ -116,5 +117,17 @@ public class GoRestStepDef {
                 .then().log().all()
                 .extract().response();
 
+    }
+
+    @When("I perform DELETE request with following data with {string}")
+    public void iPerformDELETERequestWithFollowingDataWith(String expectedUrlPath) {
+
+        response = RestAssured
+                .given().log().all()
+                .contentType(ContentType.JSON)
+                .header("Authorization", token)
+                .when().delete(goRestBaseUrl + expectedUrlPath + "/" + actualId)
+                .then().log().all()
+                .extract().response();
     }
 }

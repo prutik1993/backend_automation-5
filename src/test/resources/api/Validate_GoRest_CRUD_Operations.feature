@@ -15,6 +15,9 @@ Feature: As a QA, I validate GoRest CRUD operations
       | name   | Vera   |
       | gender | female |
     And Status code 200
+    When I perform DELETE request with following data with "<urlPath>"
+    And Status code 204
+
 
     Examples: GoRest Data
       | name       | gender | status | urlPath          |
