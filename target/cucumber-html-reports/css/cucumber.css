@@ -55,7 +55,7 @@ a:hover {
     box-shadow: -3px 0 #6ce;
 }
 
-.description {
+.description, .comment {
     font-style: italic;
     background-color: beige;
     white-space: pre;
@@ -128,6 +128,15 @@ a:hover {
 
 .undefined {
     background-color: #F5B975;
+}
+
+/** additional space before Given keyword to keep space between steps **/
+.step-name-Given {
+    margin-top: 5px;
+}
+
+.step-name-And {
+    padding-left: 10px;
 }
 
 .lead-duration {

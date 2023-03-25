@@ -6,6 +6,7 @@ Feature: As a QE, I am validating the data Database and API
     When I send GET request to "<urlPath>"
     Then I validate data from DB with API
 
+
     Examples: Data
       | query                 | urlPath   |
       | select * from student | /students |
