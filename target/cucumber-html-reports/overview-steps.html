@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
-<script type="text/javascript" src="js/Chart.min.js"></script>
-<script type="text/javascript" src="js/moment.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
 <link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="shortcut icon" href="images/favicon.png"/>
 
-<script type="text/javascript">
+<script>
 $(document).ready(function() {
     // this will tell tablesorter to try looking for the data-value attribute
     // if present, it'll sort by that instead
@@ -41,7 +41,6 @@ $(document).ready(function() {
 
 
 
-  
 <title>Cucumber Reports  - Steps Overview</title>
 
 </head>
@@ -52,10 +51,10 @@ $(document).ready(function() {
     <div class="collapse navbar-collapse">
       <p class="navbar-text navbar-left">Cucumber Report</p>
       <ul class="nav navbar-nav navbar-right">
-                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
         <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
         <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
-                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
       </ul>
     </div>
   </div>
@@ -64,35 +63,35 @@ $(document).ready(function() {
 
 <div class="container-fluid">
   <div class="col-md-5 col-md-offset-1">
-    
+
 <table class="table table-bordered" id="build-info">
   <thead>
     <tr>
       <th>Project</th>
-            <th>Date</th>
+      <th>Date</th>
     </tr>
   </thead>
   <tbody>
     <tr class="info">
       <td>backend_automation_5</td>
-            <td>22 Mar 2023, 15:37</td>
+      <td>25 Mar 2023, 13:04</td>
     </tr>
   </tbody>
 </table>
 
   </div>
   <div class="col-md-3 col-md-offset-2">
-      </div>
+  </div>
 </div>
 
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
     <h2>Steps Statistics</h2>
-          <p>The following graph shows step statistics for this build. Below list is based on results.
+      <p>The following graph shows step statistics for this build. Below list is based on results.
  step does not provide information about result then is not listed below.
  Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
-      </div>
+  </div>
 </div>
 
 <div class="container-fluid" id="report">
@@ -112,79 +111,271 @@ $(document).ready(function() {
         </thead>
 
         <tbody>
-                      <tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.createAnUserWithAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="872919000">0.872</td>
+              <td class="duration" data-value="872919000">0.872</td>
+              <td class="duration" data-value="872919000">0.872</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.iMakeADELETERequestWithFollowingDataWith(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="294424000">0.294</td>
+              <td class="duration" data-value="294424000">0.383</td>
+              <td class="duration" data-value="588848000">0.588</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.iMakeAGETRequestWithWithId(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="608388000">0.608</td>
+              <td class="duration" data-value="608388000">0.608</td>
+              <td class="duration" data-value="608388000">0.608</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.iMakeAPATCHRequestWithFollowingDataWith(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="380783000">0.380</td>
+              <td class="duration" data-value="380783000">0.380</td>
+              <td class="duration" data-value="380783000">0.380</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.iMakeAPUTRequestWithFollowingData(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="381680000">0.381</td>
+              <td class="duration" data-value="381680000">0.381</td>
+              <td class="duration" data-value="381680000">0.381</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.api_step_def.tech_global.TechGlobalStepDef.iSendSETRequestTo(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="390146000">0.390</td>
+              <td class="duration" data-value="390146000">0.390</td>
+              <td class="duration" data-value="390146000">0.390</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.common_step_def.CommonStepDef.iValidateDataFromDBWithAPI()</td>
+              <td>1</td>
+              <td class="duration" data-value="44532000">0.044</td>
+              <td class="duration" data-value="44532000">0.044</td>
+              <td class="duration" data-value="44532000">0.044</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.common_step_def.CommonStepDef.validateThatStatusCodeIs(java.lang.Integer)</td>
+              <td>6</td>
+              <td class="duration" data-value="1010000">0.001</td>
+              <td class="duration" data-value="1010000">0.004</td>
+              <td class="duration" data-value="6060000">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.database_step_def.databaseStepDef.userSendToDatabaseAndGetResult(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="161009000">0.161</td>
+              <td class="duration" data-value="161009000">0.161</td>
+              <td class="duration" data-value="161009000">0.161</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.database_step_def.databaseStepDef.user_is_able_to_connect_to_database()</td>
+              <td>2</td>
+              <td class="duration" data-value="1135352000">1.135</td>
+              <td class="duration" data-value="1135352000">1.494</td>
+              <td class="duration" data-value="2270704000">2.270</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.database_step_def.databaseStepDef.user_send_to_database(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="409420000">0.409</td>
+              <td class="duration" data-value="409420000">0.409</td>
+              <td class="duration" data-value="409420000">0.409</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.database_step_def.databaseStepDef.validate_the(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="470949000">0.470</td>
+              <td class="duration" data-value="470949000">0.470</td>
+              <td class="duration" data-value="470949000">0.470</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.createAGoRstUserWithEmailAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
               <td>1</td>
-              <td class="duration" data-value="3159000000">3.159</td>
-              <td class="duration" data-value="3159000000">3.159</td>
-              <td class="duration" data-value="3159000000">3.159</td>
+              <td class="duration" data-value="1640687000">1.640</td>
+              <td class="duration" data-value="1640687000">1.640</td>
+              <td class="duration" data-value="1640687000">1.640</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.iPerformAGETRequestWithWithId(java.lang.String)</td>
               <td>1</td>
-              <td class="duration" data-value="1463000000">1.463</td>
-              <td class="duration" data-value="1463000000">1.463</td>
-              <td class="duration" data-value="1463000000">1.463</td>
+              <td class="duration" data-value="819961000">0.819</td>
+              <td class="duration" data-value="819961000">0.819</td>
+              <td class="duration" data-value="819961000">0.819</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.iPerformDELETERequestWithFollowingDataWith(java.lang.String)</td>
               <td>2</td>
-              <td class="duration" data-value="748000000">0.748</td>
-              <td class="duration" data-value="748000000">0.915</td>
-              <td class="duration" data-value="1496000000">1.496</td>
+              <td class="duration" data-value="541102500">0.541</td>
+              <td class="duration" data-value="541102500">0.557</td>
+              <td class="duration" data-value="1082205000">1.082</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.iPerformPATCHRequestWithFollowingData(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
               <td>1</td>
-              <td class="duration" data-value="466000000">0.466</td>
-              <td class="duration" data-value="466000000">0.466</td>
-              <td class="duration" data-value="466000000">0.466</td>
+              <td class="duration" data-value="517921000">0.517</td>
+              <td class="duration" data-value="517921000">0.517</td>
+              <td class="duration" data-value="517921000">0.517</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.iPerformPUTRequestWithFollowingData(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
               <td>1</td>
-              <td class="duration" data-value="603000000">0.603</td>
-              <td class="duration" data-value="603000000">0.603</td>
-              <td class="duration" data-value="603000000">0.603</td>
+              <td class="duration" data-value="516994000">0.516</td>
+              <td class="duration" data-value="516994000">0.516</td>
+              <td class="duration" data-value="516994000">0.516</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
               <td class="location">stepDef.gorest_step_def.GoRestStepDef.statusCode(int)</td>
               <td>6</td>
-              <td class="duration" data-value="2500000">0.002</td>
-              <td class="duration" data-value="2500000">0.008</td>
-              <td class="duration" data-value="15000000">0.015</td>
+              <td class="duration" data-value="951666">0.000</td>
+              <td class="duration" data-value="951666">0.002</td>
+              <td class="duration" data-value="5710000">0.005</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.BaseSteps.setup()</td>
+              <td>6</td>
+              <td class="duration" data-value="134500">0.000</td>
+              <td class="duration" data-value="134500">0.000</td>
+              <td class="duration" data-value="807000">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.BaseSteps.userNavigatesTo(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1536446000">1.536</td>
+              <td class="duration" data-value="1536446000">1.981</td>
+              <td class="duration" data-value="3072892000">3.072</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.iValidateMatchingStudentWasAddedToTheDatabaseWithThe(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="727180000">0.727</td>
+              <td class="duration" data-value="727180000">0.727</td>
+              <td class="duration" data-value="727180000">0.727</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.pageDisplays(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="177963000">0.177</td>
+              <td class="duration" data-value="177963000">0.177</td>
+              <td class="duration" data-value="177963000">0.177</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.setup()</td>
+              <td>6</td>
+              <td class="duration" data-value="25319833">0.025</td>
+              <td class="duration" data-value="25319833">0.085</td>
+              <td class="duration" data-value="151919000">0.151</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.theSystemDisplaysUserSEmailAndOnBackendPage(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="416000">0.000</td>
+              <td class="duration" data-value="416000">0.000</td>
+              <td class="duration" data-value="416000">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.userCanSeeWholeStudentsOnThePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="196881000">0.196</td>
+              <td class="duration" data-value="196881000">0.196</td>
+              <td class="duration" data-value="196881000">0.196</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.userClickOnTheAddButton()</td>
+              <td>2</td>
+              <td class="duration" data-value="22813000">0.022</td>
+              <td class="duration" data-value="22813000">0.023</td>
+              <td class="duration" data-value="45626000">0.045</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalBackendHomePageSteps.userEntersEmailAndOnBackendPage(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="619920000">0.619</td>
+              <td class="duration" data-value="619920000">0.634</td>
+              <td class="duration" data-value="1239840000">1.239</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalSteps.setup()</td>
+              <td>6</td>
+              <td class="duration" data-value="1277027166">1.277</td>
+              <td class="duration" data-value="1277027166">1.755</td>
+              <td class="duration" data-value="7662163000">7.662</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()</td>
+              <td>2</td>
+              <td class="duration" data-value="22471500">0.022</td>
+              <td class="duration" data-value="22471500">0.023</td>
+              <td class="duration" data-value="44943000">0.044</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDef.ui_step_def.TechGlobalSteps.userSelectsTheOption(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="512855000">0.512</td>
+              <td class="duration" data-value="512855000">0.550</td>
+              <td class="duration" data-value="1025710000">1.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
               <td class="location">utils.Hooks.setUp()</td>
-              <td>1</td>
-              <td class="duration" data-value="3000000">0.003</td>
-              <td class="duration" data-value="3000000">0.003</td>
-              <td class="duration" data-value="3000000">0.003</td>
+              <td>6</td>
+              <td class="duration" data-value="52000">0.000</td>
+              <td class="duration" data-value="52000">0.000</td>
+              <td class="duration" data-value="312000">0.000</td>
               <td class="passed">100.00%</td>
             </tr>
-                      <tr>
-              <td class="location">utils.Hooks.teardown()</td>
-              <td>1</td>
-              <td class="duration" data-value="0">0.000</td>
-              <td class="duration" data-value="0">0.000</td>
-              <td class="duration" data-value="0">0.000</td>
+            <tr>
+              <td class="location">utils.Hooks.teardownTest(io.cucumber.java.Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="147012166">0.147</td>
+              <td class="duration" data-value="147012166">0.313</td>
+              <td class="duration" data-value="882073000">0.882</td>
               <td class="passed">100.00%</td>
             </tr>
-                  </tbody>
+        </tbody>
 
         <tfoot class="total">
           <tr>
-            <td>8</td>
-            <td>14</td>
-            <td class="duration">0.514</td>
-            <td class="duration">3.159</td>
-            <td class="duration">7.205</td>
+            <td>32</td>
+            <td>75</td>
+            <td class="duration">0.351</td>
+            <td class="duration">7.662</td>
+            <td class="duration">26.397</td>
             <td>Totals</td>
           </tr>
         </tfoot>

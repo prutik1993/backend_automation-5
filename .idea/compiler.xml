@@ -10,5 +10,6 @@
         <module name="backend_automation_5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
